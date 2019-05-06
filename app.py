@@ -8,7 +8,7 @@ nestFile = open("second.py", "r").read()
 winsound.PlaySound('m.wav', winsound.SND_FILENAME|winsound.SND_ASYNC)
 name = "thereisnoescape"
 
-for x in range(999):
+for x in range(100 * 20):
     print("iteration"+str(x))
     newFile = name+str(x)+".py"
     print(newFile)
